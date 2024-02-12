@@ -1,0 +1,32 @@
+to run parcel  :-  npx parcel index.html
+                   npm run start
+                   npm start
+
+to buld our project :-  npx parcel build index.html
+			npm run build
+
+JSX :- 
+
+babel :- babel is a javascript compiler and babel job is to convert jsx into reactElement and we know react element
+         at the end of the day is an object
+         * some pepole called babel is transpiler also
+
+React component :- there are two tpes of component in react
+                   1. class based component  - old
+		   2. functional component   - new
+
+**functional componet is basically javascript function that return jsx and we know at the end of the day jsx is recat 
+  element .
+  so we can say that ,
+  functional componet is a javascript function that return react element that set cool
+
+* component compositions : - if we reneder a react component in another react component it's component compositions
+
+                          const Title = ()=> (<h1>Functional component</h1>)
+			const Main = ()=>(
+				{Title} 
+				<Title/>
+				<Title><Title/>
+				<h2>Hello ji</h2>
+			)
+ 

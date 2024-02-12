@@ -1,0 +1,22 @@
+bundlers :---  webpacks , parcel , veet
+
+dependency / packages :-  there are two types of dependency that we can install
+				1. dev dependency (it means require for development)
+				2. normal dependency  (it means it's requires also in production)
+
+transitive dependency
+
+node modules is basically collectionof dependeny
+
+
+****npm install re create node modules again ok
+
+
+npx parcel index.html
+
+** npx means it executs the packages
+
+npm install react
+npm install react-dom
+
+*** npx parcel build index.html
